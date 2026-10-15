@@ -1,0 +1,61 @@
+# ---- .NET ----
+bin/
+obj/
+out/
+TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.cachefile
+.vs/
+launchSettings.json
+artifacts/
+coverage*.xml
+*.coverage
+*.trx
+project.lock.json
+project.fragment.lock.json
+*.binlog
+# keep the solution files, which are the entry point
+!*.slnx
+!*.sln
+
+# SQLite databases created at runtime by EF Core
+*.db-shm
+*.db-wal
+
+# ---- Node / JavaScript ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.eslintcache
+
+# Built output of individual projects (slides/dist is the vendored reveal.js and stays tracked)
+slidev/dist/
+slidev/.vite/
+
+# ---- IDEs and editors ----
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+._*
+
+# ---- Local AI tooling state ----
+.claude/settings.local.json
+.code-review-graph/
+
+# ---- Logs and temp files ----
+*.log
+*.tmp
+*.bak

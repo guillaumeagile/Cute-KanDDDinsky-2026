@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Cupid.Harness.Test/Cupid.Harness.Test.csproj" />
+  <Project Path="Cupid.Harness/Cupid.Harness.csproj" />
+  <Project Path="OmniProduct-Core.Test/OmniProduct-Core.Test.csproj" />
+  <Project Path="OmniProduct-CoreDomain/OmniProduct-CoreDomain.csproj" />
+</Solution>
